@@ -20,60 +20,6 @@ class WidgetText{
     );
   }
 
-  static Widget widgetRobotoMediumText(
-      String title,
-      Color color,
-      double textSize, {
-        TextAlign align = TextAlign.start,
-        decoration = TextDecoration.none,
-      }) {
-    return Text(
-      title,
-      style: TextStyle(
-          color: color,
-          fontSize: textSize,
-          fontWeight: FontWeight.w500,
-          decoration: decoration),
-      textAlign: align,
-    );
-  }
-
-  static Widget widgetRobotoBoldText(
-      String title,
-      Color color,
-      double textSize, {
-        TextAlign align = TextAlign.start,
-        decoration= TextDecoration.none,
-      }) {
-    return Text(
-      title,
-      style: TextStyle(
-          color: color,
-          fontSize: textSize,
-          fontWeight: FontWeight.bold,
-          decoration: decoration),
-      textAlign: align,
-    );
-  }
-
-  static Widget widgetExtraBoldText(
-      String title,
-      Color color,
-      double textSize, {
-        TextAlign align = TextAlign.start,
-        decoration= TextDecoration.none,
-      }) {
-    return Text(
-      title,
-      style: TextStyle(
-          color: color,
-          fontSize: textSize,
-          fontWeight: FontWeight.w900,
-          decoration: decoration),
-      textAlign: align,
-    );
-  }
-
   static Widget widgetPoppinsMaxLineOverflowText(
       String title,
       Color color,
